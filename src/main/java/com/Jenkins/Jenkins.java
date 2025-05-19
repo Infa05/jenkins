@@ -11,4 +11,8 @@ public class Jenkins {
 		return "welcome";
 	}
 
+	@GetMapping(value="getThis")
+	public String getagreethis() {
+		return "Good Moring";
+	}
 }
